@@ -1,29 +1,11 @@
 {
-  "name": "daybook",
+  "name": "ExpressNote",
   "version": "1.0.0",
-  "description": "A MERN stack application to manage daily journals and tasks",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index",
-    "dev": "nodemon src/index"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thenileshnishad/daybook.git"
-  },
-  "keywords": [
-    "mern",
-    "daybook",
-    "journal",
-    "task",
-    "management"
-  ],
-  "author": "Nilesh Kumar Nishad",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thenileshnishad/daybook/issues"
-  },
-  "homepage": "https://github.com/thenileshnishad/daybook#readme",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "body-parser": "^2.2.0",
@@ -37,5 +19,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
